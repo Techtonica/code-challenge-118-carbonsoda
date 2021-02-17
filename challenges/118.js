@@ -57,7 +57,7 @@ class Parrot {
   }
 
   speak() {
-    return `${this.name} wants a cracker!`;
+    return `${this.name} want a cracker!`;
   }
 }
 
