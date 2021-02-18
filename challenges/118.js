@@ -69,7 +69,7 @@ class ApprenticeParrot extends Parrot {
   }
 
   speak(){
-    if(this.talkCount < 4){
+    if(this.talkCount < 3){
       this.talkCount++;
       return '😴';
     } else {
