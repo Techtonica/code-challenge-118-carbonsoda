@@ -13,4 +13,12 @@ describe("Challenge 118:", () => {
     let billy = new ApprenticeParrot('Billy')
     expect(billy.speak()).toEqual('😴');
   });
+  it("A 4th billy.speak() should return 'Billy want a cracker!'", () => {
+    billy.speak();
+    billy.speak();      
+    expect(billy.speak()).toEqual('Billy want a cracker!');
+  });
+  it("Josh.talkCount should be undefined", () => {  
+    expect(josh.talkCount).toEqual(undefined);
+  });
 });
